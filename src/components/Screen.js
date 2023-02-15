@@ -1,13 +1,14 @@
 import PropTypes from 'prop-types';
 
-export default function Screen({ content }) {
-  return <p className="calculator__screen">{content}</p>;
+export default function Screen({ displayValue }) {
+  const value = displayValue();
+  return <p className="calculator__screen">{value === null ? '0' : value}</p>;
 }
 
 Screen.propTypes = {
-  content: PropTypes.string,
+  displayValue: PropTypes.func,
 };
 
 Screen.defaultProps = {
-  content: '0',
+  displayValue: () => {},
 };

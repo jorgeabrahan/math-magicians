@@ -1,8 +1,8 @@
 import PropTypes from 'prop-types';
 
-export default function Number({ number, twoCols }) {
+export default function Number({ number, twoCols, onClick }) {
   return (
-    <button type="button" className={twoCols ? 'c-span-2' : ''}>
+    <button type="button" className={twoCols ? 'c-span-2' : ''} onClick={() => onClick(number)}>
       {number}
     </button>
   );
@@ -11,6 +11,7 @@ export default function Number({ number, twoCols }) {
 Number.propTypes = {
   number: PropTypes.number.isRequired,
   twoCols: PropTypes.bool,
+  onClick: PropTypes.func.isRequired,
 };
 
 Number.defaultProps = {
