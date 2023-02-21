@@ -1,9 +1,9 @@
-import './calculator.css';
+import './styles/calculator.css';
 import { useState } from 'react';
 import Screen from './Screen';
 import Number from './Number';
 import Symbol from './Symbol';
-import calculate from '../logic/calculate';
+import calculate from './logic/calculate';
 
 export default function Calculator() {
   const [details, setDetails] = useState({

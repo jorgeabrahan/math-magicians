@@ -1,3 +1,4 @@
+// eslint-disable-next-line import/no-extraneous-dependencies
 import PropTypes from 'prop-types';
 
 export default function Screen({ displayValue }) {
