@@ -1,8 +1,13 @@
-.center {
-  display: grid;
-  place-items: center;
-  height: 100vh;
-  padding-inline: 0.5rem;
+.calculator-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media (min-width: 768px) {
+  .calculator-container {
+    flex-direction: row;
+  }
 }
 
 .calculator {

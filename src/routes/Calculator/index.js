@@ -36,7 +36,8 @@ export default function Calculator() {
     return details.next;
   };
   return (
-    <main className="center">
+    <section className="calculator-container">
+      <h2 className="subtitle">Let&apos;s do some math!</h2>
       <div className="calculator">
         <Screen displayValue={displayValue} />
         <div className="row">
@@ -73,6 +74,6 @@ export default function Calculator() {
           <Symbol symbol="=" onClick={handleButtonClick} orange />
         </div>
       </div>
-    </main>
+    </section>
   );
 }

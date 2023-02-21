@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Pangolin', cursive;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
@@ -49,6 +49,11 @@ h6 {
 
 button {
   cursor: pointer;
+}
+
+.subtitle {
+  font-size: 2rem;
+  margin-bottom: 1.8rem;
 }
 
 .place-center {
