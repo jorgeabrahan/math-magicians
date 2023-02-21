@@ -1,3 +1,8 @@
 export default function Quote() {
-  return <h2>Quote screen</h2>;
+  return (
+    <p>
+      Mathematics is not about numbers, equations, computations, or algorithms; it is about
+      understanding. ~William Paul Thurston
+    </p>
+  );
 }

@@ -50,3 +50,9 @@ h6 {
 button {
   cursor: pointer;
 }
+
+.place-center {
+  max-width: 1024px;
+  margin: auto;
+  padding-inline: 1rem;
+}

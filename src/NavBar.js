@@ -3,9 +3,9 @@ import styles from './NavBar.module.css';
 
 export default function Navbar() {
   return (
-    <>
+    <div className="place-center">
       <nav className={styles.navBar}>
-        <h1>Math Magicians</h1>
+        <h1 className={styles.navBarTitle}>Math Magicians</h1>
         <ul className={styles.navBarList}>
           <li>
             <Link to="/">Home</Link>
@@ -21,6 +21,6 @@ export default function Navbar() {
         </ul>
       </nav>
       <Outlet />
-    </>
+    </div>
   );
 }

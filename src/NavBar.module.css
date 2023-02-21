@@ -1,11 +1,17 @@
 .navBar {
   display: flex;
   justify-content: space-between;
-  padding: 1rem;
+  padding-block: 1rem;
+  align-items: center;
 }
 
 .navBarList {
   display: flex;
   gap: 0.5rem;
   list-style-type: none;
+  font-size: 1.3rem;
+}
+
+.navBarTitle {
+  font-size: 2.4rem;
 }
