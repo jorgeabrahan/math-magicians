@@ -12,10 +12,10 @@ describe('Snapshot tests for all components', () => {
     expect(renderer.create(<Calculator />).toJSON()).toMatchSnapshot();
   });
   it('Should render the Number component correctly', () => {
-    expect(renderer.create(<Number />).toJSON()).toMatchSnapshot();
+    expect(renderer.create(<Number number={0} onClick={() => {}} />).toJSON()).toMatchSnapshot();
   });
   it('Should render the Symbol component correctly', () => {
-    expect(renderer.create(<Symbol />).toJSON()).toMatchSnapshot();
+    expect(renderer.create(<Symbol symbol="" onClick={() => {}} />).toJSON()).toMatchSnapshot();
   });
   it('Should render the Screen component correctly', () => {
     expect(renderer.create(<Screen />).toJSON()).toMatchSnapshot();
