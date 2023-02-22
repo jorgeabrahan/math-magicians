@@ -1,36 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Snapshot tests for all components Should render the Home component correctly 1`] = `
-Array [
-  <h2
-    className="subtitle"
-  >
-    Welcome to our page!
-  </h2>,
-  <p
-    style={
-      Object {
-        "marginBottom": "1.5rem",
-      }
-    }
-  >
-    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error hic consectetur numquam unde minima quo odio qui, ab neque fuga! Iusto id ab provident praesentium? Perferendis exercitationem asperiores quaerat necessitatibus. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error hic consectetur numquam undeminima quo odio qui, ab neque fuga! Iusto id ab provident praesentium? Perferendis exercitationem asperiores quaerat necessitatibus.
-  </p>,
-  <p>
-    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error hic consectetur numquam unde minima quo odio qui, ab neque fuga! Iusto id ab provident praesentium? Perferendis exercitationem asperiores quaerat necessitatibus. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error hic consectetur numquam undeminima quo odio qui, ab neque fuga! Iusto id ab provident praesentium? Perferendis exercitationem asperiores quaerat necessitatibus.
-  </p>,
-]
-`;
-
-exports[`Snapshot tests for all components Should render the Quote component correctly 1`] = `
-<p
-  className="quote"
->
-  Mathematics is not about numbers, equations, computations, or algorithms; it is about understanding. ~William Paul Thurston
-</p>
-`;
-
-exports[`Snapshot tests for all components Should render the calculator component correctly 1`] = `
+exports[`Snapshot tests for all components Should render the Calculator component correctly 1`] = `
 <section
   className="calculator-container"
 >
@@ -202,4 +172,50 @@ exports[`Snapshot tests for all components Should render the calculator componen
     </div>
   </div>
 </section>
+`;
+
+exports[`Snapshot tests for all components Should render the Home component correctly 1`] = `
+Array [
+  <h2
+    className="subtitle"
+  >
+    Welcome to our page!
+  </h2>,
+  <p
+    style={
+      Object {
+        "marginBottom": "1.5rem",
+      }
+    }
+  >
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error hic consectetur numquam unde minima quo odio qui, ab neque fuga! Iusto id ab provident praesentium? Perferendis exercitationem asperiores quaerat necessitatibus. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error hic consectetur numquam undeminima quo odio qui, ab neque fuga! Iusto id ab provident praesentium? Perferendis exercitationem asperiores quaerat necessitatibus.
+  </p>,
+  <p>
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error hic consectetur numquam unde minima quo odio qui, ab neque fuga! Iusto id ab provident praesentium? Perferendis exercitationem asperiores quaerat necessitatibus. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error hic consectetur numquam undeminima quo odio qui, ab neque fuga! Iusto id ab provident praesentium? Perferendis exercitationem asperiores quaerat necessitatibus.
+  </p>,
+]
+`;
+
+exports[`Snapshot tests for all components Should render the Number component correctly 1`] = `
+<button
+  className=""
+  onClick={[Function]}
+  type="button"
+/>
+`;
+
+exports[`Snapshot tests for all components Should render the Quote component correctly 1`] = `
+<p
+  className="quote"
+>
+  Mathematics is not about numbers, equations, computations, or algorithms; it is about understanding. ~William Paul Thurston
+</p>
+`;
+
+exports[`Snapshot tests for all components Should render the Symbol component correctly 1`] = `
+<button
+  className=""
+  onClick={[Function]}
+  type="button"
+/>
 `;
