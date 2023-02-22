@@ -212,6 +212,12 @@ exports[`Snapshot tests for all components Should render the Quote component cor
 </p>
 `;
 
+exports[`Snapshot tests for all components Should render the Screen component correctly 1`] = `
+<p
+  className="calculator__screen"
+/>
+`;
+
 exports[`Snapshot tests for all components Should render the Symbol component correctly 1`] = `
 <button
   className=""
