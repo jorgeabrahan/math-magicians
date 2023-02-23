@@ -1,0 +1,231 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot tests for all components Should render the Calculator component correctly 1`] = `
+<section
+  className="calculator-container"
+>
+  <h2
+    className="subtitle"
+  >
+    Let's do some math!
+  </h2>
+  <div
+    className="calculator"
+  >
+    <p
+      className="calculator__screen"
+      data-testid="calcScreen"
+    >
+      0
+    </p>
+    <div
+      className="row"
+    >
+      <button
+        className=""
+        onClick={[Function]}
+        type="button"
+      >
+        AC
+      </button>
+      <button
+        className=""
+        onClick={[Function]}
+        type="button"
+      >
+        +/-
+      </button>
+      <button
+        className=""
+        onClick={[Function]}
+        type="button"
+      >
+        %
+      </button>
+      <button
+        className="orange"
+        onClick={[Function]}
+        type="button"
+      >
+        ÷
+      </button>
+    </div>
+    <div
+      className="row"
+    >
+      <button
+        className=""
+        onClick={[Function]}
+        type="button"
+      >
+        7
+      </button>
+      <button
+        className=""
+        onClick={[Function]}
+        type="button"
+      >
+        8
+      </button>
+      <button
+        className=""
+        onClick={[Function]}
+        type="button"
+      >
+        9
+      </button>
+      <button
+        className="orange"
+        onClick={[Function]}
+        type="button"
+      >
+        x
+      </button>
+    </div>
+    <div
+      className="row"
+    >
+      <button
+        className=""
+        onClick={[Function]}
+        type="button"
+      >
+        4
+      </button>
+      <button
+        className=""
+        onClick={[Function]}
+        type="button"
+      >
+        5
+      </button>
+      <button
+        className=""
+        onClick={[Function]}
+        type="button"
+      >
+        6
+      </button>
+      <button
+        className="orange"
+        onClick={[Function]}
+        type="button"
+      >
+        -
+      </button>
+    </div>
+    <div
+      className="row"
+    >
+      <button
+        className=""
+        onClick={[Function]}
+        type="button"
+      >
+        1
+      </button>
+      <button
+        className=""
+        onClick={[Function]}
+        type="button"
+      >
+        2
+      </button>
+      <button
+        className=""
+        onClick={[Function]}
+        type="button"
+      >
+        3
+      </button>
+      <button
+        className="orange"
+        onClick={[Function]}
+        type="button"
+      >
+        +
+      </button>
+    </div>
+    <div
+      className="row"
+    >
+      <button
+        className="c-span-2"
+        onClick={[Function]}
+        type="button"
+      >
+        0
+      </button>
+      <button
+        className=""
+        onClick={[Function]}
+        type="button"
+      >
+        .
+      </button>
+      <button
+        className="orange"
+        onClick={[Function]}
+        type="button"
+      >
+        =
+      </button>
+    </div>
+  </div>
+</section>
+`;
+
+exports[`Snapshot tests for all components Should render the Home component correctly 1`] = `
+Array [
+  <h2
+    className="subtitle"
+  >
+    Welcome to our page!
+  </h2>,
+  <p
+    style={
+      Object {
+        "marginBottom": "1.5rem",
+      }
+    }
+  >
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error hic consectetur numquam unde minima quo odio qui, ab neque fuga! Iusto id ab provident praesentium? Perferendis exercitationem asperiores quaerat necessitatibus. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error hic consectetur numquam undeminima quo odio qui, ab neque fuga! Iusto id ab provident praesentium? Perferendis exercitationem asperiores quaerat necessitatibus.
+  </p>,
+  <p>
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error hic consectetur numquam unde minima quo odio qui, ab neque fuga! Iusto id ab provident praesentium? Perferendis exercitationem asperiores quaerat necessitatibus. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error hic consectetur numquam undeminima quo odio qui, ab neque fuga! Iusto id ab provident praesentium? Perferendis exercitationem asperiores quaerat necessitatibus.
+  </p>,
+]
+`;
+
+exports[`Snapshot tests for all components Should render the Number component correctly 1`] = `
+<button
+  className=""
+  onClick={[Function]}
+  type="button"
+>
+  0
+</button>
+`;
+
+exports[`Snapshot tests for all components Should render the Quote component correctly 1`] = `
+<p
+  className="quote"
+>
+  Mathematics is not about numbers, equations, computations, or algorithms; it is about understanding. ~William Paul Thurston
+</p>
+`;
+
+exports[`Snapshot tests for all components Should render the Screen component correctly 1`] = `
+<p
+  className="calculator__screen"
+  data-testid="calcScreen"
+/>
+`;
+
+exports[`Snapshot tests for all components Should render the Symbol component correctly 1`] = `
+<button
+  className=""
+  onClick={[Function]}
+  type="button"
+/>
+`;
