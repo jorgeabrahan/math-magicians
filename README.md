@@ -65,8 +65,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-Not deployed yet.
-- [https://jorgeabrahan.github.io/](https://github.com/jorgeabrahan)
+- [https://math-magicians-s54d.onrender.com](https://math-magicians-s54d.onrender.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
